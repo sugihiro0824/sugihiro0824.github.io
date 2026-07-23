@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>漢字のかけら</title>
+<style>
+  :root { --kinari:#f3ecdc; --sumi:#2b2620; --shu:#b23528; --gray:#6f6858; --border:#d8cbb0; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { font-family:"Hiragino Sans","Helvetica Neue",sans-serif; background:var(--kinari);
+         color:var(--sumi); line-height:1.8; -webkit-font-smoothing:antialiased; }
+  .wrap { max-width:680px; margin:0 auto; padding:56px 24px 80px; }
+  header { text-align:center; margin-bottom:48px; }
+  .icon { width:120px; height:120px; border-radius:26px; box-shadow:0 8px 24px rgba(43,38,32,.18); }
+  h1 { font-size:34px; font-weight:800; letter-spacing:2px; margin:22px 0 6px; }
+  .tag { color:var(--gray); font-size:15px; }
+  .lead { font-size:17px; margin:0 auto 40px; max-width:560px; }
+  .lead .shu { color:var(--shu); font-weight:700; }
+  h2 { font-size:20px; font-weight:800; margin:40px 0 14px; padding-left:14px;
+       border-left:5px solid var(--shu); }
+  ul { list-style:none; }
+  li { padding:8px 0 8px 28px; position:relative; }
+  li::before { content:"■"; color:var(--shu); font-size:11px; position:absolute; left:6px; top:12px; }
+  .links { display:flex; gap:14px; flex-wrap:wrap; justify-content:center; margin-top:46px; }
+  .links a { color:var(--gray); font-size:14px; text-decoration:none; padding:10px 18px;
+             border:1px solid var(--border); border-radius:999px; background:#fff8; }
+  .links a:hover { color:var(--shu); border-color:var(--shu); }
+  footer { text-align:center; color:var(--gray); font-size:12px; margin-top:56px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <img class="icon" src="icon.png" alt="漢字のかけら アイコン">
+      <h1>漢字のかけら</h1>
+      <p class="tag">かけらを組んで、言葉を作ろう。</p>
+    </header>
+
+    <p class="lead">
+      「日」＋「寺」＝「時」。バラバラになった漢字の<span class="shu">“かけら”</span>を
+      組み合わせて、言葉を完成させる和風パズルです。1問30秒からの、気軽な脳トレ。
+    </p>
+
+    <h2>あそびかた</h2>
+    <ul>
+      <li>よみがなと意味をヒントに、かけらをタップして枠にはめるだけ</li>
+      <li>むずかしいときは「もどす」「ヒント」でじっくり考えられます</li>
+      <li>すきま時間にちょうどいい、1問30秒からの脳トレ</li>
+    </ul>
+
+    <h2>特徴</h2>
+    <ul>
+      <li>やさしい（二字熟語）〜むずかしい（四字熟語）の3レベル、全290問</li>
+      <li>クリアで「かけら」を集めて、判子や称号をコレクション</li>
+      <li>桜・富士山・紅葉など、美しい和の背景でゲーム画面を着せ替え</li>
+    </ul>
+
+    <div class="links">
+      <a href="support.html">サポート・お問い合わせ</a>
+      <a href="privacy.html">プライバシーポリシー</a>
+    </div>
+
+    <footer>© 2026 漢字のかけら</footer>
+  </div>
+</body>
+</html>
